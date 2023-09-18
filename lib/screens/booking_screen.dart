@@ -58,7 +58,11 @@ class _BookingScreenState extends State<BookingScreen> {
                                         color: AppColors.white,
                                       ),
                                     ),
-                                    const Text("lyft"),
+                                    const Image(
+                                      image: AssetImage(
+                                        "assets/lyft_logo.png",
+                                      ),
+                                    ),
                                     const CircleAvatar(
                                       foregroundImage: AssetImage(
                                           "assets/profile_image.png"),
